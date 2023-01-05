@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label>Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre"/>
+        <label>Apellido</label>
+        <input type="text" name="apellido" placeholder="Ingrese su apellido"/>
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="Ingrese su e-mail"/>
+        <label>Password</label>
+        <input type="password" name="password">
+        <input type="submit" value="Enviar">
+    </form> 
+    
+</body>
+</html>
+
+<!--
+    Atributos:
+        action= define a que pagina envia esto cuando el usuario envia la informacion completada
+        method= metodo con el que se envia la informacion al servidor
+            post, no muestran las variables que viajan
+            get, muestra las variables
+    Elemento form: formularios 
+        label: nombre/etiquetas 
+        input type: existen distintos tipos, que debe cargar el usuario 
+        name: definir los nombres de las variables que viajan
+        placeholder: mensaje de ayuda  
+-->
